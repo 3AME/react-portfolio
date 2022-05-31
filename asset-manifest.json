@@ -1,12 +1,12 @@
 {
   "main.css": "/react-portfolio/static/css/main.6758c619.chunk.css",
-  "main.js": "/react-portfolio/static/js/main.15f5c13c.chunk.js",
-  "main.js.map": "/react-portfolio/static/js/main.15f5c13c.chunk.js.map",
+  "main.js": "/react-portfolio/static/js/main.4e54ff03.chunk.js",
+  "main.js.map": "/react-portfolio/static/js/main.4e54ff03.chunk.js.map",
   "static/js/1.a12be866.chunk.js": "/react-portfolio/static/js/1.a12be866.chunk.js",
   "static/js/1.a12be866.chunk.js.map": "/react-portfolio/static/js/1.a12be866.chunk.js.map",
   "runtime~main.js": "/react-portfolio/static/js/runtime~main.f8926043.js",
   "runtime~main.js.map": "/react-portfolio/static/js/runtime~main.f8926043.js.map",
-  "static/media/CV.pdf": "/react-portfolio/static/media/CV.3cb4b616.pdf",
+  "static/media/CV.pdf": "/react-portfolio/static/media/CV.f732c533.pdf",
   "static/media/me-about1.JPG": "/react-portfolio/static/media/me-about1.12a2ba63.JPG",
   "static/media/me-about.jpg": "/react-portfolio/static/media/me-about.74296648.jpg",
   "static/media/portfolio1.png": "/react-portfolio/static/media/portfolio1.e094bbbc.png",
@@ -18,6 +18,6 @@
   "static/media/index.css": "/react-portfolio/static/media/bg-texture8.206ff28d.jpg",
   "static/css/main.6758c619.chunk.css.map": "/react-portfolio/static/css/main.6758c619.chunk.css.map",
   "index.html": "/react-portfolio/index.html",
-  "precache-manifest.0221e4f0b2227f862c341b0cd96bd98d.js": "/react-portfolio/precache-manifest.0221e4f0b2227f862c341b0cd96bd98d.js",
+  "precache-manifest.031b899babdca0cf18a643eb625b86f2.js": "/react-portfolio/precache-manifest.031b899babdca0cf18a643eb625b86f2.js",
   "service-worker.js": "/react-portfolio/service-worker.js"
 }
