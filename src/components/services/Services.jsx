@@ -5,7 +5,7 @@ import {BiCheck} from 'react-icons/bi'
 function Services() {
   return (
     <section id='services'>
-      <h5>WHat I Offer</h5>
+      <h5>What I Offer</h5>
       <h2>Services</h2>
       <div className="container services__container">
         <article className='service'>
@@ -15,27 +15,15 @@ function Services() {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>lalalalalalalallalalalalalal</p>
+              <p>Create design prototypes using tools such as figma, axure.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>lalalalalalalallalalalalalal</p>
+              <p>Based on a human-centred design philosophy</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>lalalalalalalallalalalalalal</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>lalalalalalalallalalalalalal</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>lalalalalalalallalalalalalal</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>lalalalalalalallalalalalalal</p>
+              <p>Participate in teamwork or lead a team.</p>
             </li>
           </ul>
         </article>
@@ -47,27 +35,15 @@ function Services() {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>lalalalalalalallalalalalalal</p>
+              <p>HTML + CSS + javascript based web development.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>lalalalalalalallalalalalalal</p>
+              <p>Development using react.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>lalalalalalalallalalalalalal</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>lalalalalalalallalalalalalal</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>lalalalalalalallalalalalalal</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>lalalalalalalallalalalalalal</p>
+              <p>Web development with bootstrap</p>
             </li>
           </ul>
         </article>
@@ -79,27 +55,15 @@ function Services() {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>lalalalalalalallalalalalalal</p>
+              <p>Determining the content of the web pages.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>lalalalalalalallalalalalalal</p>
+              <p>User research and user data analysis.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>lalalalalalalallalalalalalal</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>lalalalalalalallalalalalalal</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>lalalalalalalallalalalalalal</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>lalalalalalalallalalalalalal</p>
+              <p>Brainstorming.</p>
             </li>
           </ul>
         </article>
