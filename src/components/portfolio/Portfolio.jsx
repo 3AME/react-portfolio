@@ -18,30 +18,21 @@ const data = [
   },
   {
     id: 1,
-    image: IMG3,
-    title: "Design of everyday behavior",
-    github: "#",
-    demo: "https://medium.com/@team.jall",
-  },
-  {
-    id: 1,
     image: IMG4,
     title: "Activities around you",
     github: "#",
     demo: "https://www.figma.com/proto/nvxof2P90dbVfs80clRs8N/hti110-group-work?page-id=103%3A233&node-id=205%3A2762&viewport=198%2C160%2C0.22&scaling=scale-down&starting-point-node-id=205%3A2762",
   },
-  
+  {
+    id: 1,
+    image: IMG3,
+    title: "Design of everyday behavior",
+    github: "#",
+    demo: "https://medium.com/@team.jall",
+  },
 ];
 
 const data1 = [
-  {
-    id: 1,
-    image: IMG1,
-    title:
-      "Portfolio created by React",
-    github: "https://github.com/3AME/react-portfolio",
-    demo: "#",
-  },
   {
     id: 1,
     image: IMG5,
@@ -58,6 +49,16 @@ const data1 = [
   },
 
 ]
+const data2 = [
+  {
+    id: 1,
+    image: IMG1,
+    title:
+      "Portfolio created by React",
+    github: "https://github.com/3AME/react-portfolio",
+    demo: "https://3ame.github.io/react-portfolio/",
+  }
+]
 
 function Portfolio() {
   return (
@@ -66,6 +67,29 @@ function Portfolio() {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
+        {/* github + demo */}
+        {data2.map(({ id, image, title, github, demo }) => {
+          return (
+            <article key={id} className="portfolio__item">
+              <div className="portfolio__item-image">
+                <img src={image} alt="title" />
+              </div>
+              <h3>{title}</h3>
+              <div className="portfolio__item-cta">
+                <a href={github} className="btn" target="_blank">
+                  Github
+                </a>
+                <a
+                  href={demo}
+                  className="btn btn-primary"
+                  target="_blank"
+                >
+                  Live Demo
+                </a>
+              </div>
+            </article>
+          );
+        })}
         {/* Only demo */}
         {data.map(({ id, image, title, demo }) => {
           return (
@@ -89,7 +113,7 @@ function Portfolio() {
             </article>
           );
         })}
-        {/* Github + demo */}
+        {/* Github*/}
         {data1.map(({ id, image, title, github, demo }) => {
           return (
             <article key={id} className="portfolio__item">
@@ -112,6 +136,7 @@ function Portfolio() {
             </article>
           );
         })}
+        
       </div>
     </section>
   );
