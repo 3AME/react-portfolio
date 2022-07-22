@@ -15,21 +15,21 @@ function Experience() {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Basic</small>
+                <small className="text-light">Familiar</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Basic</small>
+                <small className="text-light">Familiar</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>JavaScript</h4>
-                <small className="text-light">Basic</small>
+                <small className="text-light">Proficient</small>
               </div>
             </article>
             <article className="experience__details">
@@ -50,7 +50,7 @@ function Experience() {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>React</h4>
-                <small className="text-light">Basic</small>
+                <small className="text-light">Proficient</small>
               </div>
             </article>
           </div>
@@ -91,7 +91,66 @@ function Experience() {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Python</h4>
-                <small className="text-light">Basic</small>
+                <small className="text-light">Familiar</small>
+              </div>
+            </article>
+          </div>
+        </div>
+        {/* software engineer intership */}
+        <div className="experience__backend">
+          <h3>Software Engineer intership</h3>
+          <h5>Part time:03.2019-07.2019</h5>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Team Leader</h4>
+                <small className="text-light">Organise project meetings, follow up on project progress and communicate with mentor.</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Design</h4>
+                <small className="text-light">Designing the user interface of the project.
+</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Coding</h4>
+                <small className="text-light">Development of the management system using Java and JSP, build the database system based on Java Database Connectivity (JDBC) and finally visualize the agricultural data.</small>
+              </div>
+            </article>
+          </div>
+          </div>
+          {/* software prototype Desigmer intership */}
+        <div className="experience__backend">
+          <h3>Software Engineer intership</h3>
+          <h5>Part time:09.2019-12.2019</h5>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Reseaching</h4>
+                <small className="text-light">Communicate with customers and understand their requirements.</small>
+                
+                {/* <small className="text-light">Basic</small> */}
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Design</h4>
+                <small className="text-light">Design of SAS systems according to customer requirements.</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Prototype</h4>
+                <small className="text-light"> Human centered design of Wechat applet prototypes.</small>
               </div>
             </article>
           </div>

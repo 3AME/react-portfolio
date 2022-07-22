@@ -4,6 +4,8 @@ import ME from '../../assets/me-about.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
+import {BiCertification} from 'react-icons/bi'
+import Demola_certificate from '../../assets/Anfang Liu- KAMK Certificate - Demola Global Project 2020.pdf'
 
 const About = () => {
     return (
@@ -24,16 +26,22 @@ const About = () => {
                             <small>9 month internship</small>
                         </article>
 
-                        {/* <article className="about__card">
-                            <FiUsers className="about__icon"/>
-                            <h5>Clients</h5>
-                            <small>200+ Worldwide</small>
-                        </article> */}
+                        
 
                         <article className="about__card">
                             <VscFolderLibrary className="about__icon"/>
                             <h5>Projects</h5>
                             <small>9 completed</small>
+                        </article>
+
+                        <article className="about__card">
+                            <BiCertification className="about__icon"/>
+                            <h5>Demola Certificate of Achievement</h5>
+                            {/* <small>200+ Worldwide</small> */}
+                            <small>
+                            <a href={Demola_certificate} download className="btn">Download</a>
+                            </small>
+                            
                         </article>
                     </div>
                     <p>
